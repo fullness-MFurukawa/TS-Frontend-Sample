@@ -1,6 +1,7 @@
 /**
  * List3-2 Rootレイアウト
  */
+import "./globals.css";
 // { children } を受け取り、型にReact.ReactNodeを指定する
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
